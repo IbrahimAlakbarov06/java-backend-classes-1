@@ -7,7 +7,7 @@ public class NumberApp {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int num = scan.nextInt();
-        System.out.println((num % 2 != 0 ) ? "tek" : "cut ");
+        System.out.println((num % 2 ==1 ) ? "tek" : "cut ");
 
     }
 }
