@@ -1,4 +1,4 @@
-package as;
+package az.edu.turing;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package as;
+package az.edu.turing;
 
 public class Addition {
     public static void main(String[] args) {
