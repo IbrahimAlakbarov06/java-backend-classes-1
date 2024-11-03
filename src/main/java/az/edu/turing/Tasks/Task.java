@@ -8,22 +8,12 @@ public class Task {
         System.out.println("Enter number: ");
         int num = scan.nextInt();
 
-
-        String result = (num < 0 ? "Negative" : (num > 0 ? "Positive " : "Zero"));
+        String result = (num == 0) ? "Zero" :
+                (num < 0 && num % 2 == 0) ? "Negative And Even" :
+                        (num > 0 && num % 2 == 0) ? "Positive And Even" :
+                                (num < 0 && num % 2 == 1) ? "Negative And Odd" :
+                                        "Positive And Odd";
         System.out.println(result);
 
-
-
-        /*if (num % 2 == 0 && num > 0) {
-            System.out.println("Eded cutdur ve musbetdir");
-        } else if (num % 2 == 1 && num > 0) {
-            System.out.println("Eded tekdir ve musbetdir");
-        } else if (num % 2 == 0 && num < 0) {
-            System.out.println("Eded cutdur ve menfidir");
-        } else if (num % 2 == 1 && num < 0) {
-            System.out.println("Eded tekdir ve menfidir");
-        } else {
-            System.out.println("Eded sifirdir");
-        }*/
     }
 }
