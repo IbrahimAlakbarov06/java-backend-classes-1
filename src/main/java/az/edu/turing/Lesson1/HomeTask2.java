@@ -1,6 +1,4 @@
-package az.edu.turing;
-
-import java.util.Scanner;
+package az.edu.turing.Lesson1;
 
 public class HomeTask2 {
 
