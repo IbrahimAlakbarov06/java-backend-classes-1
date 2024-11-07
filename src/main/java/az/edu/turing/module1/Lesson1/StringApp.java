@@ -1,4 +1,4 @@
-package az.edu.turing.Lesson1;
+package az.edu.turing.module1.Lesson1;
 
 public class StringApp {
     public static void main(String[] args) {
