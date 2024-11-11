@@ -7,7 +7,7 @@ public class Task1 {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter: ");//salam
         String name = scan.nextLine();
-        char lastChar = name.charAt(name.length()-1);
-        System.out.println("Last character is: "+lastChar);
+        char lastChar = name.charAt(name.length() - 1);
+        System.out.println("Last character is: " + lastChar);
     }
 }

@@ -1,4 +1,4 @@
-package az.edu.turing.Tasks;
+package az.edu.turing.module1.Tasks;
 
 import java.util.Scanner;
 
